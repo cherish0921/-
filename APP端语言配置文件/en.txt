@@ -1,0 +1,740 @@
+/* 
+  Localizable.strings
+  LendChain
+
+  Created by Allen on 2018/7/19.
+  Copyright ? 2018年 Allen. All rights reserved.
+*/
+
+"language" = "en";
+
+"lang" = "en_US";//接口语言 中文zh_CN，英文en_US，韩文ko
+
+"H5" = "en";//h5语言
+
+"Home" = "Home";//首页
+
+"Invest" = "Invest";//投资
+
+"Borrow" = "Borrow";//借款
+
+"Me" = "Me";//我的
+
+"HomeTitle" = "LendChain";//首页title
+
+"InvestTitle" = "Loan";//投资
+
+"BorrowTitle" = "Borrow";//借款
+
+"MeTitle" = "Me";//我的
+
+"network" = "No network connection, please check the network";//网络错误
+
+"下拉刷新财运" = "Release the refresh";
+
+"上拉刷新财运" = "Release the refresh";
+
+"释放财运刷新" = "Release the refresh";
+
+"财运刷新中..." = "Refresh...";
+
+/**
+ * 首页
+ */
+"banner" = "en";//轮播图语言
+
+"day" = "-day period";//天
+
+"year" = "Rate (year)";//年化
+
+"BorrowAssets" = "Borrow assets";//借入资产
+
+"MortgageAssets" = "Mortgage assets";//抵押资产
+
+"The minimum limit" = "Minimum limit";//起购资金
+
+"Mortgage" = "Mortgage";//抵押标
+
+"Novice" = "Novice";//新手
+
+"Novice Preview" = "Novice Preview";//新手预告
+
+"Platform" = "Platform";//平台标
+
+"Preview" = "Preview";//预告
+
+"Market" = "Market";//行情市价
+
+"Coin" = "Coin";//币种
+
+"Last Price" = "Last Price";//最新价
+
+"24H Change" = "24H Change";//24h涨幅
+
+"24H High" = "24H High";//24h最高价
+
+"24H Low" = "24H Low";//24h最低价
+
+"24H Curve" = "24H Curve";//24h曲线
+
+"发现新版本" = "Discover new version";
+
+"去更新" = "To update";
+
+/**
+ * 借款
+ */
+"借款提示" = "Note:\n1.The mortgage loan platform will charge 1% of the loan amount as a handling fee.\n2.You can do the early payment after at least 24 hours from the borrowing time.";
+
+"Type" = "Type";//借款类型
+
+"Mortgaged Currency" = "Mortgaged Currency";//抵押币种
+
+"Borrowed Currency" = "Borrowed Currency";//借入币种
+
+"Mortgaged Amount" = "Mortgaged Amount";//抵押数量
+
+"Borrowed Amount" = "Borrowed Amount";//借入数量
+
+"Interest Rate" = "Interest\nRate\n(Daily)";//借款利率
+
+"Period" = "Period";//借款期限
+
+"Accrued Interest" = "Accrued Interest";//到期应付利息
+
+"Confirm" = "Confirm";//确认借款
+
+"days" = "days";//天
+
+"ConfirmPayKeyboard" = "Confirm";//确认支付
+
+"ConfirmInvestKeyboard" = "Invest";//确认投资
+
+"Cancel" = "Cancel";//取消
+
+"Done" = "Done";//确定
+
+"暂无借款类型" = "No type of loan is available";
+
+"暂无抵押币种" = "Unsecured currency";
+
+"暂无借入币种" = "There is no currency to borrow in";
+
+"请输入谷歌验证码" = "Please enter Google verification code";
+
+"请输入6位谷歌验证码" = "Please enter 6 digit Google verification code";
+
+"请输入4位验证码" = "Please enter 4 bit verification code";
+
+"请输入抵押数量" = "Enter mortgages";
+
+"请输入借入数量" = "Enter borrowed";
+
+"最小借入数量" = "Minimum borrow amount";
+
+"成功" = "Success";
+
+"失败" = "Failure";
+
+"去借款" = "To borrow";
+
+"因操作时间过久，借入币种价格已降低，相对应借入数量也减少，是否继续借款" = "Because the operation time is too long, the price of borrowing currency has decreased, and the corresponding amount of borrowing has also decreased, whether to continue borrowing";
+
+/**
+ * 投资
+ */
+"All" = "All";//全部
+
+"Platform" = "Platform";//平台标
+
+"Mortgage" = "Mortgage";//抵押标
+
+"M" = "M";//抵
+
+"P" = "P";//平
+
+"NewUser" = "新手标1";//新手标image
+
+"NewUserNotice" = "新手预告1";//新手预告image
+
+"Notice" = "预告1";//预告image
+
+"limit" = "Period";//期限
+
+"Borrowed" = "Borrowed";//借入资产
+
+"Finished" = "已满标1";//已满标image
+
+"立即投资" = "Invest";
+
+"已满标" = "Finished";
+
+"预告" = "Notice";
+
+"新手预告" = "New User Notice";
+
+"新手标" = "New User";
+
+"抵押物市价" = "Mortgage price";
+
+"温馨提示" = "Warm prompt";
+
+"为了保障您的投资收益和账户资产安全，需要先完成并通过安全认证才能投资。" = "In order to ensure the security of your investment income and account assets, you need to complete and pass the security certification before you can invest.";
+
+"请先设置昵称" = "Please set the nickname first";
+
+"再看看" = "Look again at";
+
+"去认证" = "Go to the certification";
+
+"请输入投资金额" = "Enter Loan Amount";
+
+"输入金额必须大于最小起投金额" = "The input amount must be greater than the minimum initial investment amount";
+
+"余额不足，需充值" = "Insufficient balance, Recharge";
+
+"输入金额" = "Enter the amount";
+
+"剩余全投" = "All Invests";
+
+"投资金额" = "Invest Amount";
+
+"到期收益" = "Interest";
+
+"支付验证" = "Payment verification";
+
+"谷歌验证码" = "Google Code";
+
+"支付" = "Payment";
+
+"账户余额" = "Balance";
+
+"可用余额" = "Balance：";
+
+"预期年化" = "Rate (year)";
+
+"周期" = "Period";
+
+"借入资产" = "Borrowed";
+
+"抵押资产" = "Mortgage Price";
+
+"新手剩余额度" = "Newbie remaining";
+
+"新手剩余额度不足" = "Can't exceed the amount that a novice can buy";
+
+"输入金额必须等于" = "The input money must be equal to";
+
+"后开抢" = "later";
+
+"投资进度" = "Progress";
+
+"剩余可投" = "Avaiable Balance";
+
+"基础信息" = "Basic information";
+
+"开始时间" = "Start Time";
+
+"计息方式" = "Interest rate mathod";
+
+"还款方式" = "Repayment";
+
+"起购资金" = "The minimum limit";
+
+"满标后计息" = "Calculate after getting full";
+
+"到期一次性还本付息" = "Principal and Interest repayment";
+
+"投资详情" = "Investment details";
+
+"已购记录" = "Purchased records";
+
+"向上拖动查看投资详情" = "To Top";
+
+"金额" = "Amount";
+
+"用户名" = "User name";
+
+"购买时间" = "Occasions";
+
+"投资成功" = "Investment success";
+
+/**
+ * 我的
+ */
+"注册/登录" = "   login / Sign Up   ";
+
+"总资产折合(CNY)" = "Total funds estimation(USDT)";
+
+"昨日收益(CNY)" = "Yesterday's earnings(USDT)";
+
+"可用余额(CNY)" = "Balance(USDT)";
+
+"资产管理" = "Asset Management";
+
+"我的钱包" = "My Wallet";
+
+"我的投资" = "My Assets";
+
+"充提记录" = "Transaction History";
+
+"我的借款" = "Borrowing History";
+
+"账户管理" = "Account management";
+
+"个人中心" = "My Account";
+
+"安全认证" = "Security Center";
+
+"推荐有礼" = "Invite & Rewards";
+
+"关于我们" = "About Us";
+
+"帮助中心" = "Help Center";
+
+"设置" = "Settings";
+
+"安全退出" = "Logout";
+
+"语言" = "Language";
+
+"语言1" = "English";
+
+"确定退出登录？" = "Are you sure to log out?";
+
+"费率说明" = "Rate Instruction";
+
+"风险管理" = "Risk Management";
+
+"新手指南" = "User Guide";
+
+"如何玩转抵押借贷" = "Application Scenario";
+
+"抵押借贷说明" = "Mortgage Loan Instruction";
+
+"利德LendChain是做什么？" = "What is Lendchain?";
+
+"已复制" = "copy";
+
+"利德是什么" = "What is Lendchain?";
+
+"当前版本" = "Current version";
+
+"官网" = "Website";
+
+"官方微信公众号" = "Wechat Official Account";
+
+"官方微博" = "Weibo";
+
+"去设置" = "Set Up";
+
+"手机号" = "Phone Number";
+
+"昵称" = "Nickname";
+
+"设置昵称" = "Set a Nickname";
+
+"温馨提示：设置后不能更改" = "Tips: can not be changed after setting";
+
+"昵称中不能包含空格符和无效字符，最多八个字符" = "Nicknames cannot cont-ain space characters andinvalid characters, up toeight characters.";
+
+"确认" = "Confirm";
+
+"昵称格式" = "昵称格式1";//iamge
+
+"手机认证" = "SMS Verification";
+
+"请选择国家电话编码" = "Country code";
+
+"请输入手机号" = "Enter Phone number";
+
+"请输入6-15手机号" = "Please enter 6-15 mobile phone number";
+
+"请输入验证码" = "Enter SMS code";
+
+"手机号码要求" = "Please enter the correct mobile phone number";
+
+"国家编码" = "Country code";
+
+"手机号" = "Phone Number";
+
+"邮箱验证码" = "Email Code";
+
+"短信验证码" = "SMS Code";
+
+"发送验证码" = "Send SMS";
+
+"发送成功" = "Send a success";
+
+"请先登录" = "Please login again";
+
+"手机认证成功" = "Successful mobile phone certification";
+
+"设置昵称成功" = "Set nickname successfully";
+
+"谷歌认证成功" = "Google certification is successful";
+
+"等待审核" = "Waiting for audit";
+
+"成功退出" = "Exit the success";
+
+"是否确认逾期还款" = "Whether to confirm overdue repayment";
+
+"是否确认正常还款" = "Whether to confirm normal repayment";
+
+"是否确认提前还款" = "Whether to confirm advance repayment";
+
+"借入金额" = "Borrow Amount";
+
+"利息" = "Interest";
+
+"到期时间" = "Expiration time";
+
+"操作" = "Action";
+
+"去还款" = "Repay";
+
+"点击查看更多详情" = "Click to read more";
+
+"逾期" = "Overdue";
+
+"募集失败" = "Failure";
+
+"募集中" = "In progress";
+
+"待还款" = "Waiting for\nrepayments";
+
+"提前还款" = "Prepayment";
+
+"正常还款" = "Normal\nrepayments";
+
+"逾期还款" = "Overdue\nrepayment";
+
+"还款完成" = "Repayment\ncompletion";
+
+"强制交割" = "Compulsory\ndelivery";
+
+"强制平仓" = "Stop out";
+
+"借入详情" = "Borrow Details";
+
+"追加抵押物" = "Add mortgage";
+
+"发标时间" = "Time to issue";
+
+"满标时间" = "Full time";
+
+"还款时间" = "Repayment time";
+
+"抵押物" = "Mortgage";
+
+"募集百分比" = "Recruitment percentage";
+
+"追加" = "Add";
+
+"请输入追加数量" = "Please enter the Add amount";
+
+"抵押币种市价" = "Mortgage price";
+
+"抵押数量" = "Mortgage Amount";
+
+"抵押物充足率" = "Mortgage rates";
+
+"追加后抵押物充足率为：" = "Updated mortgage rates：";
+
+"去充值" = "Recharge";
+
+"低于警戒线" = "Below the guard line";
+
+"出借金额" = "Loan Amount";
+
+"利息" = "Interest";
+
+"到期时间" = "Expiration time";
+
+"还款时间" = "Repayment time";
+
+"等待确认" = "Waiting";
+
+"投资失败" = "Investment failure";
+
+"未知" = "Unknown";
+
+"充值记录" = "Deposit History";
+
+"提现记录" = "Withdrawal History";
+
+"充值加速" = "Accelerate\n recharge";
+
+"加速文案" = "Note:After the transaction is successfully initiated on the blockchain,the acceleration of recharge can be performed";
+
+"币种选择" = "Select currency";
+
+"请输入充值Hash" = "Enter your Hash";
+
+"请选择币种" = "Please select currency";
+
+"请输入以0x开头的66位的充值Hash,由小写字母及数字组成" = "Please enter the 66 bit Hash beginning with 0x, consisting of lowercase letters and numbers.";
+
+"请输入64位的充值Hash,由小写字母及数字组成" = "Please enter 64 bits of Hash, consisting of lowercase letters and numbers.";
+
+"订单号：" = "order number：";
+
+"地址：" = " Address：";
+
+"充值" = "Deposit";
+
+"提现" = "Withdrawal";
+
+"转账" = "Transfer";
+
+"可用余额(CNY)" = "Balance(USDT)";
+
+"扫一扫二维码，获取充值码地址" = "Scan the QR code to get the recharge code address";
+
+"充值地址" = "Deposit Address";
+
+"Memo" = "Memo";
+
+"Memo文案" = "Please be sure to fill in Memo when recharging. If you do not fill in or fill in the wrong award, the amount of recharging will be lost and cannot be recovered.";
+
+"充值文案" = "Tips:\n1.Please do not deposit non %@ coins to LendChain which may lead to your asset unaccounted or lost.\n2.Validation of the entire network node is required. Deposit needs one-time network confirmation while withdrawal needs six times network confirmations.\n3.Each deposit must be can than %@ %@.\n4.Your deposit address will not change frequently. We will inform you by website announcement or email if there is any change.\n5.Please make sure your computer and browser are secured to prevent tampering or leakage of information.";
+
+"24小时内提现最高额度为" = "The maximum withdrawal limit within 24 hours is ";
+
+"最小数量为" = "The minimum number is ";
+
+"请输入提币地址" = "Please enter the withdrawal address";
+
+"请输入提币数量" = "Please enter the amount of withdrawal";
+
+"请输入Memo" = "Please enter the Memo";
+
+"提现验证" = "Withdrawal Verification";
+
+"数量" = "Amount";
+
+"提币地址" = "Withdrawal Address";
+
+"实际到账：" = "Actual arrival：";
+
+"，手续费：" = "，Withdrawal fee：";
+
+"平台内转账" = "Transfer in LendChain";
+
+"请输入转账数量" = "Enter Amount";
+
+"转账验证" = "Transfer validation";
+
+"请输入邮箱" = "Enter Email";
+
+"请输入收款人昵称" = "Enter Payee Nickname";
+
+"请输入收款人手机号码" = "Enter Payee Phone Number";
+
+"请输入转账数量" = "Enter Amount";
+
+"收款账户邮箱" = "Receipt Email";
+
+"昵称" = "Nickname";
+
+"手机号" = "Phone number";
+
+"(选填)" = "(Optional)";
+
+"转账数量" = "Amount";
+
+"转账文案" = "Warm reminder:\n1. 0 service charge for transfer within the platform.\n2. Account will be received immediately after transfer within the platform.";
+
+"请先通过手机认证" = "Please pass the mobile authentication first";
+
+"已认证" = "Verified";
+
+"去认证" = "Verify";
+
+"待审核" = "Under Review";
+
+"重试" = "Retry";
+
+"拒绝理由" = "Refuse reason";
+
+"手机认证" = "SMS Verification";
+
+"手机认证text" = "For withdrawal, password reset and security settings";
+
+"谷歌认证" = "Google Authentication";
+
+"谷歌认证text" = "For login, withdrawal, password retrieve,setting modification and API management";
+
+"身份认证" = "Know Your Customer ";
+
+"身份认证text" = "The user who completes the authentic ation can withdraw the coin.";
+
+"复制成功" = "Copy success";
+
+"复制" = "Copy";
+
+"请输入短信验证码" = "Enter SMS code";
+
+"请输入谷歌验证码1" = "Enter Google code";
+
+"温馨提示：记得备份谷歌二维码或密钥" = "Tips: Remember to back up Google QR code or key";
+
+"谷歌二维码及密钥：" = "Google QR Code & Private Key";
+
+"谷歌验证文案" = "Steps:\n1.iOS users download “google authenticator” from the app store, and Android users download “Google authenticator” in the play store or Google search.\n2. In the “Google Authenticator” application, click on the “+” sign in the upper right corner and select “Manually enter verification code”.\n3. Paste the above “Key” into the “Key” input field, fill in your LendChain account, and click “Finish”.\n4. Copy ”Google Verification Code“ and paste it into the ”Google Verification Code“ input field above. Do not delete this double verification password account, otherwise you will be unable to perform account operations; if you delete it by mistake, you can retrieve it again by resetting the key.\n5. Please keep your key in a safe place. In the event that your mobile phone is lost, you can use this key to restore your Google verification.";
+
+"身份认证" = "Know Your Customer";
+
+"身份证" = "ID Card";
+
+"护照" = "Passport";
+
+"国家" = "Country";
+
+"姓名" = "Name";
+
+"生日" = "Birthday";
+
+"证件类型" = "Type of ID";
+
+"证件号" = "ID Number";
+
+"下一步" = "Next";
+
+"请输入你的真实名字" = "Please enter your name";
+
+"请输入你的证件号" = "Please enter your ID number";
+
+"出生年月" = "Date of birth";
+
+"上传证件材料" = "Upload document materials";
+
+"请选择并上传" = "Please select and upload";
+
+"完成" = "OK";
+
+"拍照" = "Taking pictures";
+
+"从相册中选择" = "Choose from the album";
+
+"提示" = "Prompt";
+
+"知道啦" = "I know";
+
+"相册不可用，请打开相册对应用的访问权限" = "The album is not available. Please open the access right of the photo album to the application.";
+
+"相机不可用，请打开相机对应用的访问权限" = "Camera is not available. Please open the access right of the camera to the application.";
+
+"imageOne-1" = "imageOne-11";//image
+
+"imageTwo-1" = "imageTwo-11";//image
+
+"imageThree-1" = "imageThree-11";//image
+
+"imageOne-2" = "imageOne-22";//image
+
+"imageTwo-2" = "imageTwo-22";//image
+
+"imageThree-2" = "imageThree-22";//image
+
+"身份证正面" = "Picture of ID(Front)";
+
+"身份证反面" = "Picture of ID(Back)";
+
+"本人照片身份证" = "Picture of Yourself";
+
+"身份证正面文案" = "Please keep the identity information in the photo displayed intact, the font is clearly visible and the brightness is even.";
+
+"身份证反面文案" = "Please keep the identity information in the photo displayed intact, the font is clearly visible and the brightness is even.";
+
+"本人照片身份证文案" = "Upload a picture for yourself holding a paper and write on it. ”LendChain Certification”and the date.";
+
+"护照封面" = "Passport(Cover)";
+
+"护照个人页" = "Passport(Personal page)";
+
+"本人照片护照" = "Picture of Yourself";
+
+"护照封面文案" = "Please keep the identity information in the photo displayed intact, the font is clearly visible and the brightness is even.";
+
+"护照个人页文案" = "Please keep the identity information in the photo displayed intact, the font is clearly visible and the brightness is even.";
+
+"本人照片护照文案" = "Upload a picture for yourself holding a paper and write on it. ”LendChain Certification”and the date.";
+
+"确认中" = "Waiting for confirmation";
+
+"待入账" = "Receiving";
+
+"已入账" = "Received";
+
+"待审核" = "Waiting for review";
+
+"处理中" = "Are dealing with";
+
+"已完成" = "Has been completed";
+
+"拒绝" = "Refused";
+
+"超出限额" = "Exceeded the amount";
+
+/**
+ * 登录注册
+ */
+"密码格式" = "密码格式1";//iamge
+
+"修改密码" = "Password Reset";
+
+"确认修改" = "Confirm";
+
+"请输入旧密码" = "Enter the Old Password";
+
+"请输入新密码" = "Enter the New Password";
+
+"请再次确认新密码" = "Re-enter the New Password";
+
+"邮箱要求" = "Please enter the correct email";
+
+"密码要求" = "8-20 characters with a mix of letters, numbers & symbols";
+
+"两次密码不一致" = "Two cipher inconsistencies";
+
+"忘记密码" = "Find your password";
+
+"请输入邮箱验证码" = "Enter Email Code";
+
+"请输入密码" = "Enter password";
+
+"密码修改成功" = "Password modified successfully";
+
+"投篮验证中英文" = "en";
+
+"注册成功" = "Registered successfully";
+
+"注册" = "Sign Up";
+
+"如有邀请人，请输入邀请码" = "Enter the Inviter's ID (optional)";
+
+"邮箱不能与密码一样" = "Email cannot be the same as password";
+
+"去登录" = "Login";
+
+"登录成功" = "Login successful";
+
+"登录" = "Login";
+
+"忘记密码？" = "Forgot password？";
+
+"去注册" = "Sign Up";
+
+"立即登录" = "Login";
+
+
+
+
+
+
+
+
+
+

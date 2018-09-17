@@ -1,0 +1,504 @@
+@charset "UTF-8";
+.index_bannercontainer {
+  width: 100%;
+  height: 100%;
+}
+
+.index_bannercontainer .swiper-container {
+  height: 100%;
+}
+
+.font11 {
+  font-size: 12px;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.index {
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+.banner_ img {
+  width: 100%;
+}
+
+.suggest_ {
+  width: 100%;
+  min-height: 100%;
+  margin-top: .4rem;
+  overflow: auto;
+}
+
+.suggest_ .mint-swipe-items-wrap {
+  min-height: 10rem;
+}
+
+.suggest_ .mint-swipe-items-wrap .mint-swipe-item {
+  padding: 0 1rem;
+  border-radius: 0.27rem;
+}
+
+.suggest_ .mint-swipe-items-wrap .mint-swipe-item .header {
+  vertical-align: middle;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.suggest_ .mint-swipe-items-wrap .mint-swipe-item .header .title {
+  padding: 0.4rem 0;
+  border-bottom: .5px solid #e6e6e6;
+}
+
+.suggest_ .mint-swipe-items-wrap .mint-swipe-item .header span {
+  display: inline-block;
+  width: 100%;
+  margin-top: -6px;
+}
+
+.suggest_ .mint-swipe-items-wrap .mint-swipe-item .circleloadinglg {
+  height: 2.975rem;
+}
+
+.suggest_ .mint-swipe-items-wrap .mint-swipe-item .circleinfo {
+  margin-top: -2.3rem;
+}
+
+.suggest_ .mint-swipe-items-wrap .mint-swipe-item .content_ {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #fff;
+  padding: 0.4rem 10%;
+}
+
+.suggest_ .mint-swipe-items-wrap .mint-swipe-item .content_ p {
+  margin-bottom: 0.4rem;
+}
+
+.suggest_ .mint-swipe-items-wrap .mint-swipe-item .content_ .borrowin {
+  width: 100%;
+  margin: 0.4rem auto;
+  margin-bottom: -10px;
+}
+
+.suggest_ .mint-swipe-items-wrap .mint-swipe-item .content_ .borrowin .left,
+.suggest_ .mint-swipe-items-wrap .mint-swipe-item .content_ .borrowin .borrowin {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.suggest_ .mint-swipe-items-wrap .mint-swipe-item .content_ .commonbtn {
+  display: inline-block;
+  width: 5.33rem;
+  height: 1.17rem;
+  margin-bottom: 4px;
+  text-align: center;
+  line-height: 1.17rem;
+  border-radius: 0.59rem;
+}
+
+.suggest_ .mint-swipe-items-wrap .mint-swipe-item .content_ .commonbtn span {
+  font-size: 16px;
+}
+
+/*新版行情市价*/
+.marketnewbox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.marketnewbox > div {
+  width: 100%;
+}
+
+.marketnewbox .marketnew-head {
+  padding: 0px 0.53rem;
+  border-bottom: 0.5px solid #e6e6e6;
+  height: 0.93rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.marketnewbox .marketnew-head div {
+  font-size: 0.32rem;
+  font-weight: 400;
+  color: #262626;
+  width: 33%;
+}
+
+.marketnewbox .marketnew-head div:first-child {
+  text-align: left;
+}
+
+.marketnewbox .marketnew-head div:nth-child(2) {
+  text-align: left;
+  padding-left: 0.4rem;
+}
+
+.marketnewbox .marketnew-head div:last-child {
+  text-align: right;
+}
+
+.marketnew-coinlist {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 0.5px solid #e6e6e6;
+}
+
+.marketnew-coinlist:last-child {
+  border-bottom: 0px;
+}
+
+.marketnew-coinlist > div {
+  width: 100%;
+}
+
+/*币种信息*/
+.marketnew-coin {
+  padding: 0px 0.53rem;
+  height: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.marketnew-coin > div {
+  width: 33%;
+  text-align: center;
+}
+
+.marketnew-coin .marketnew-coinname {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.marketnew-coin .marketnew-coinname img {
+  width: 0.67rem;
+  height: 0.67rem;
+  margin-right: 0.27rem;
+}
+
+.marketnew-coin .marketnew-coinname div {
+  line-height: normal;
+  font-size: 0.37rem;
+  font-family: "PingFangSC-Medium";
+  font-weight: 500;
+  color: #262626;
+}
+
+.marketnew-coin .marketnew-coinname div span {
+  color: #999999;
+  font-weight: 400;
+}
+
+.marketnew-coin .marketnew-coinname, .marketnew-coin .marketnew-coinprice span:first-child {
+  font-size: 0.37rem;
+  font-family: "PingFangSC-Medium";
+  font-weight: 500;
+  color: #262626;
+}
+
+.marketnew-coin .marketnew-coinprice {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 0.4rem;
+}
+
+.marketnew-coin .marketnew-coinprice span:last-child {
+  font-size: 0.33rem;
+  font-family: "PingFangSC-Regular";
+  font-weight: 400;
+  color: #999999;
+  margin-top: 0.12rem;
+}
+
+.marketnew-coin .marketnew-coinextend {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.marketnew-coin .marketnew-coinextend.rise .marketnew-block {
+  background-color: #FF4B14;
+}
+
+.marketnew-coin .marketnew-coinextend.fall .marketnew-block {
+  background-color: #3BC642;
+}
+
+.marketnew-coin .marketnew-coinextend .marketnew-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 0.72rem;
+  border-radius: 0.05rem;
+  font-size: 0.32rem;
+  font-family: "PingFangSC-Regular";
+  font-weight: 400;
+  color: white;
+}
+
+/*曲线信息*/
+.marketnew-coincurve {
+  padding: 0px 0.53rem;
+  background: #EBF4FF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.marketnew-coincurve .marketnew-coindayprice {
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+}
+
+.marketnew-coincurve .marketnew-coindayprice:nth-child(2) {
+  padding-left: 0.3rem;
+}
+
+.marketnew-coincurve .marketnew-coinpriceitem {
+  text-align: left;
+}
+
+.marketnew-coincurve .marketnew-coinpriceitem span {
+  display: block;
+  font-size: 0.32rem;
+  font-weight: 400;
+}
+
+.marketnew-coincurve .marketnew-coinpriceitem span:first-child {
+  color: #999999;
+  margin-bottom: 0.27rem;
+}
+
+.marketnew-coincurve .marketnew-coinpriceitem span:last-child {
+  color: #595959;
+}
+
+.marketnew-coincurve .marketnew-coindaycurve {
+  width: 2.67rem;
+  padding: 0.18rem 0px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.marketnew-coincurve .marketnew-coindaycurve .marketnew-coindaycurbox {
+  transform: translateX(0.16rem);
+}
+
+.marketnew-coincurve .marketnew-coindaycurve .marketnew-coindaycurvetit {
+  width: 100%;
+  text-align: right;
+  padding-top: 0.1rem;
+  font-size: 0.32rem;
+  color: #999;
+  font-weight: 400;
+}
+
+/*旧版行情市价*/
+.market {
+  margin-bottom: 2rem;
+}
+
+.market h3 {
+  padding: 0.4rem;
+}
+
+.market table tr {
+  color: #262626;
+  line-height: inherit;
+  height: 1.2rem;
+}
+
+.market table tr td {
+  text-align: left;
+}
+
+.market table tr td:first-child {
+  text-align: left;
+  padding-left: 0.53rem;
+}
+
+.market table tr td:nth-child(2) span {
+  text-align: left;
+  color: #999;
+  display: inherit;
+}
+
+.market table tr td:last-child {
+  text-align: right;
+  padding-right: 0.53rem;
+}
+
+.market table .tabletitle {
+  font-size: 12px;
+}
+
+.market table .tabletitle tr {
+  color: #262626;
+  font-size: 12px;
+}
+
+.market table .show {
+  background-color: #ebf4ff;
+  height: 1.6rem;
+}
+
+.market table .show td:nth-child(1), .market table .show td:nth-child(2), .market table .show td:nth-child(3) {
+  color: #999;
+}
+
+.market table .show td:nth-child(1) span, .market table .show td:nth-child(2) span, .market table .show td:nth-child(3) span {
+  color: #595959;
+  display: inherit;
+}
+
+.market table .show td:last-child {
+  width: 3.6rem;
+  float: right;
+}
+
+.market table tr:first-child td:nth-child(1), .market table tr:first-child td:nth-child(2) {
+  width: 30%;
+}
+
+.suggest_ .mint-swipe-indicators .mint-swipe-indicator {
+  border: 0.5px solid #509fff;
+  background-color: inherit;
+  opacity: 1;
+  border: 0.5px solid #509fff;
+}
+
+.suggest_ .mint-swipe-indicators .mint-swipe-indicator.is-active {
+  background-color: #509fff;
+}
+
+/*新增轮播部分*/
+.img-response {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.justcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myCountdownbanner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.myCountdownbanner .mytokensale-index {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: url("https://s.lendx.vip/static/test/images/tokensale/tokensalebanner.png") no-repeat center center;
+  background-size: 100% 100%;
+  padding-top: 0.8rem;
+}
+
+.mytokensale-index .mytokensaletit-index {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.mytokensale-index .mytokensaletit-index img {
+  width: 5.33rem;
+}
+
+.mytokensale-index .mytokensaletit-index .subtit-index {
+  line-height: 0.35rem;
+  margin-top: 0.3rem;
+  color: #FFFFFF;
+  font-family: "SF UI Text";
+}
+
+.mytokensale-index .mytokensaletit-index .subtit-index.subtitend {
+  font-size: 0.45rem;
+  color: #FFBE23;
+  margin-bottom: 0.95rem;
+}
+
+.myCountdown-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0.33rem;
+}
+
+.myCountdown-banneritem {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.myCountdown-banneritem .Countdown-txt {
+  width: 0.88rem;
+  height: 0.88rem;
+  background: linear-gradient(to top, #4885FF, #509FFF);
+  border-radius: 0.11rem;
+  margin-bottom: 0.19rem;
+  font-size: 0.55rem;
+  color: #FFFFFF;
+}
+
+.myCountdown-banneritem .Countdown-desc {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 0.27rem;
+  font-weight: 300;
+  font-family: "FZLTXHK--GBK1-0";
+}
+
+.myCountdown-bannericon {
+  display: flex;
+  padding: 0px 0.23rem;
+  flex-direction: column;
+  height: 0.88rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.myCountdown-bannericon span {
+  display: block;
+  width: 0.08rem;
+  height: 0.08rem;
+  border-radius: 0.16rem;
+  background-color: #fff;
+}
+
+.myCountdown-bannericon span:first-child {
+  margin-bottom: 0.13rem;
+}
+
+.Countdown-footer {
+  width: 100%;
+  margin-top: 0.25rem;
+}
+
+.Countdown-footer img {
+  width: 3.65rem;
+}
